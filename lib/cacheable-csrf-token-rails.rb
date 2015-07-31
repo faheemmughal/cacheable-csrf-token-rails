@@ -1,4 +1,5 @@
 # Inspired from http://www.jarrodspillers.com/2010/02/06/trying-to-use-rails-csrf-protection-on-cached-actions-rack-middleware-to-the-rescue/ and https://gist.github.com/1124982/632f1fcbe0981424128b3088ddb27a322c369cc1
+# Extended https://github.com/cmer/cacheable-csrf-token-rails
 
 module CacheableCSRFTokenRails
   def self.included(base)
